@@ -16,3 +16,4 @@ class TestIngredient:
     def test_get_type_successfully(self):
         ingredient = Ingredient(INGREDIENT_TYPE_SAUCE, DataForTests.HOT_SAUSE, DataForTests.PRICE_HOT_SAUSE)
         assert ingredient.get_type() == INGREDIENT_TYPE_SAUCE
+

@@ -22,3 +22,4 @@ class TestBun:
     def test_get_price_successfully(self, name, price):
         bun = Bun(name, price)
         assert bun.get_price() == price
+
