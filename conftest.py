@@ -14,15 +14,18 @@ def bun():
     bun = Bun(DataForTests.BLACK_BUN, DataForTests.PRICE_BLACK_BUN)
     return bun
 
+
 @pytest.fixture(scope='function')
 def burger():
     burger = Burger()
     return burger
 
+
 @pytest.fixture(scope='function')
 def ingredient():
     ingredient = Ingredient(INGREDIENT_TYPE_SAUCE, DataForTests.CHILI_SAUSE, DataForTests.PRICE_CHILI_SAUSE)
     return ingredient
+
 
 @pytest.fixture(scope='function')
 def mock():
