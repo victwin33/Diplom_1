@@ -18,3 +18,4 @@ class DataForTests:
     PRICE_SOUR_CREAM = 60
     PRICE_CHILI_SAUSE = 70
     RECEIPT = '(==== black bun ====)\n= sauce sour cream =\n(==== black bun ====)\n\nPrice: 80'
+

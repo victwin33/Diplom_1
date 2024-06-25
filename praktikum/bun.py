@@ -14,3 +14,4 @@ class Bun:
     def get_price(self) -> float:
         return self.price
 
+

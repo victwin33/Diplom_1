@@ -14,3 +14,4 @@ class TestDatabase:
         ingredients = data.available_ingredients()
         assert ingredients[0].name == DataForTests.HOT_SAUSE
 
+

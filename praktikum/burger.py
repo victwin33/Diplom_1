@@ -47,3 +47,4 @@ class Burger:
 
         return '\n'.join(receipt)
 
+

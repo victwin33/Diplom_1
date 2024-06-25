@@ -46,3 +46,4 @@ class TestBurger:
         burger.add_ingredient(Ingredient(INGREDIENT_TYPE_SAUCE, DataForTests.SOUR_CREAM, DataForTests.PRICE_SOUR_CREAM))
         assert burger.get_receipt() == DataForTests.RECEIPT
 
+
